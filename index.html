@@ -20,8 +20,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:domain" content="daemorus.com" />
     <meta property="og:site_name" content="Daemorus" />
-    <meta property="og:url" content="@HttpContext.Current.Request.Url.AbsoluteUri" />
-    <meta name="twitter:url" content="@HttpContext.Current.Request.Url.AbsoluteUri" />
+    <meta property="og:url" content="https://daemorus.com/" />
+    <meta name="twitter:url" content="https://daemorus.com/" />
 
     <meta property="og:title" content="Daemorus" />
     <meta name="twitter:title" content="Daemorus" />
@@ -309,23 +309,6 @@
                 </div>
             </section>
         </div>
-        
-        
-    <script>
-        $(document).ready(function () {
-            var eventElements = $('.eventContainer .col-md-4 .card.card-sm');
-            var maxHeight = 0;
-            for (var i = 0; i < eventElements.length; i++) {
-                if (eventElements[i].clientHeight > maxHeight) {
-                    maxHeight = eventElements[i].clientHeight;
-                }
-            }
-            
-            for (var i = 0; i < eventElements.length; i++) {
-                eventElements[i].style.height = maxHeight + 'px';
-            }
-        })
-    </script>
 
         <!-- FOOTER -->
         <footer class="site-footer bg-dark">
