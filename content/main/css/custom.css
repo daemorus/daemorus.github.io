@@ -1,0 +1,142 @@
+/* This file primarily contains styling that is used on the entire site */
+
+a.underline {
+    text-decoration: underline;
+}
+
+section.bg-image .overlay {
+    opacity: 0.66;
+}
+
+section.bg-image {
+    /*height: 960px;*/
+    background-position: 50%;
+}
+
+/*@media only screen and (max-width: 600px) {
+    section.bg-image-sm {
+        height: 720px;
+    }
+}*/
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+    .cursor-pointer:hover {
+        color: #2069c7 !important;
+        text-decoration: none !important;
+    }
+
+.invalid-style {
+    width:100%;
+    margin-top: .725rem;
+    font-size: 80%;
+}
+
+.modal-dialog {
+    min-width: 350px;
+}
+
+.img-max-height-100 {
+    height: 100%;
+}
+
+.note-video-clip {
+    max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .forum-post .forum-header > div:last-child, .forum-reply .forum-header > div:last-child {
+        display:initial;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .forum-post .forum-header > div:nth-child(2) {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .forum-post .forum-header > div:first-child, .forum-reply .forum-header > div:first-child {
+        display: none;
+    }
+}
+
+.bg-dark {
+    background-color: #2d2a2a !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.forum-header > div > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+.comment-avatar > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+.post-header > div > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+.overlay {
+    background: #252525;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+.m-t-25 {
+    margin-top: 25px;
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-outline-white > .active {
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #000;
+}
+
+.btn-outline-white:hover {
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #000;
+}
+
+.btn-outline-white:focus {
+    box-shadow: unset;
+}
+
+.blockquote {
+    /*border: 1px solid rgba(0,0,0,.08);*/
+    border-left: 5px solid rgba(0,0,0,.08);
+    font-size: unset;
+    line-height: unset;
+    font-weight: unset;
+    background-color: unset;
+    text-align: unset;
+}
+
+    .blockquote p {
+        font-size: unset;
+        font-weight: unset;
+    }
