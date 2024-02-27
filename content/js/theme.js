@@ -782,7 +782,7 @@ document.addEventListener('DOMContentLoaded', function () {
  * ------------------------------------------------------------------------
  */
 var VERSION$5 = '1.0.0';
-var PATH = window.path ? window.path : 'content/main/plugins';
+var PATH = window.path ? window.path : 'content/plugins';
 var Font = {
   SOLID: '.fas',
   REGULAR: '.far',
